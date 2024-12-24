@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.task1-image,
+.task2-video,
+.task3-audio {
+    height: 88vh;
+    width: 70%;
+    margin: 35px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.contanier-image,
+.contanier-video,
+.contanier-audio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+/* Task 1 */
+img {
+    max-width: 100%;
+}
+
+.task1-image {
+    border: 2px solid darkcyan;
+}
+
+label[for="input-image"] {
+    border: 2px dashed darkcyan;
+    color: darkcyan;
+}
+
+
+/* Task 2 */
+.task2-video {
+    border: 2px solid purple;
+}
+
+video {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+label[for="input-video"] {
+    border: 2px dashed goldenrod;
+    color: goldenrod;
+}
+
+/* Task 3 */
+.task3-audio {
+    border: 2px solid goldenrod;
+    height: 50vh;
+    width: 70%;
+}
+
+audio {
+    width: 50%;
+}
+
+label[for="input-audio"] {
+    border: 2px dashed goldenrod;
+    color: goldenrod;
+}
