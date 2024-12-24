@@ -79,8 +79,8 @@ video {
 }
 
 label[for="input-video"] {
-    border: 2px dashed goldenrod;
-    color: goldenrod;
+    border: 2px dashed purple;
+    color: purple;
 }
 
 /* Task 3 */
